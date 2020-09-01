@@ -1,0 +1,5 @@
+C:\Users\sekim\OneDrive\デスクトップ\MyRound\bin\Release\MyRound.dll
+C:\Users\sekim\OneDrive\デスクトップ\MyRound\bin\Release\MyRound.pdb
+C:\Users\sekim\OneDrive\デスクトップ\MyRound\obj\Release\MyRound.csproj.CoreCompileInputs.cache
+C:\Users\sekim\OneDrive\デスクトップ\MyRound\obj\Release\MyRound.dll
+C:\Users\sekim\OneDrive\デスクトップ\MyRound\obj\Release\MyRound.pdb
