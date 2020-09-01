@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using sc = System.Console;
 
-namespace MyRound{                                      //version1      4/12        例外対応なし
+namespace MyRound{                                      
     public class Class1{
 
         public static double round(double target, int decpla) {
@@ -38,15 +38,12 @@ namespace MyRound{                                      //version1      4/12    
                 number = int.Parse(reg.Replace(bunnkai, "")[decpla + 1 - place].ToString());    //「.」にあわせるため、+1。bunnkaiはE-○○を失っているため、decplaにplaceで引いて、位置調整。
                 if(number >= 5) {                                   
                     target += Math.Pow(10, -(decpla - 1));
-                    bunnkai = reg.Replace(target.ToString(), "").Substring(0, decpla + 1 - place) + match;      //targetもstring化し、
+                    bunnkai = reg.Replace(target.ToString(), "").Substring(0, decpla + 1 - place) + match;
                 } else {
                     bunnkai = reg.Replace(target.ToString(), "").Substring(0, decpla + 1 - place) + match;
                 }
             }
 
-
-            //sc.WriteLine(number);
-            //sc.ReadKey();
             return double.Parse(bunnkai);
             
         }
